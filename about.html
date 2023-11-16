@@ -3,6 +3,61 @@
 <h4>🍜</h4>
 <h5>🍜</h5>
 
+/**
+ * v0 by Vercel.
+ * @see https://v0.dev/t/TrnUG7VVu5Y
+ */
+export default function Component() {
+  return (
+    <div key="1" className="bg-[#f2efd9] text-[#003b5c] font-serif min-h-screen flex flex-col items-center p-4">
+      <h1 className="text-4xl font-bold mt-8 mb-4 text-center">The AB Restaurant Chronicle</h1>
+      <nav className="mb-8">
+        <ul className="flex justify-center space-x-8">
+          <li>
+            <a className="text-lg hover:underline" href="#">
+              Home
+            </a>
+          </li>
+          <li>
+            <a className="text-lg hover:underline" href="#">
+              About
+            </a>
+          </li>
+          <li>
+            <a className="text-lg hover:underline" href="#">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div className="w-full max-w-md bg-white shadow rounded-lg overflow-hidden mb-8">
+        <img
+          alt="Food Image"
+          className="object-cover w-full h-64"
+          height="200"
+          src="/placeholder.svg"
+          style={{
+            aspectRatio: "300/200",
+            objectFit: "cover",
+          }}
+          width="300"
+        />
+        <div className="p-6">
+          <h2 className="text-2xl font-bold mb-2">The Mystery of the Disappearing Socks</h2>
+          <p className="text-base text-[#003b5c] mb-4">
+            Every home has its mysteries. In our house, it's the case of the disappearing socks. One day they're paired
+            up, neat and tidy, and the next...
+          </p>
+          <a className="text-blue-600 hover:underline" href="#">
+            Read More
+          </a>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
 <p>SF is the king of cuisine</p>
 
 <a> href="./index.html">Link to Homepage</a>
